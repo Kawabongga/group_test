@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Varela+Round:400,500,700');
+
+/*---CSS de la page---*/
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Varela Round', sans-serif;
+  color: #222;
+}
+
+/*---CSS des boutons---*/
+.btn-primary {
+  background-color: #FF9900;
+  border: 1px solid #FF9900;
+}
+
+.btn-primary:hover {
+  background-color: #C67200;
+}
+
+.btn-outline-secondary {
+    border-color: #007DFF;
+    color: #007DFF;
+
+}
+.btn-outline-secondary:hover {
+    border-color: #007DFF;
+    background-color: #007DFF;
+
+}
+
+/*---CSS barre de navigation---*/
+.navbar {
+  position:fixed;
+  width: 100%;
+  box-shadow: 1px 1px 6px #000;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.nav-link {
+  color: #007DFF;
+}
+
+/*---CSS carousel---*/
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: :uppercase;
+  text-shadow: 1px 1px 7px #000;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 4px #000;
+  padding-bottom: 1rem;
+}
+
+.form-inline{
+  float:right;
+  transform:translateX(-50%);
+}
+
+.card{
+  box-shadow: 1px 1px 10px #000;
+}
+
+.thumbnail
+{
+  max-width: 210px;
+  height: 210px;
+  padding:0.25rem;
+
+}
+
+.img-jeu{
+  width: 300px;
+  height: 210px;
+  overflow: hidden;
+}
+
+
+/*---CSS Dernières publications---*/
+.last_published{
+  width:75%;
+  margin: 0 auto ;
+  padding-top: 2rem;
+
+}
+.last_published hr{
+  border: 1px solid #dec9b6;
+  width: 95%;
+}
+/*---CSS Dernières offres---*/
+
+.last_offers{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
