@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device, initial-scale=1">
+      <title>Bull's Eye</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+      <link href="css/annonce.css" rel="stylesheet">
+    </head>
+
+      <body>
+      <!--- Navigation --->
+        <nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src ="img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="annonce.html">Déposer une annonce</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="offre.html">Offres</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="demande.html">Demandes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav navbar-right ml-auto">
+                <li class="nav-item">
+                  <button type="button" class="btn btn-primary">S'inscrire/Se connecter</button>
+                  <!--<a class="nav-link" href="#">S'incrire/Se connecter</a>-->
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!--Section des annonces-->
+        	<div id="section3" class="section">
+            <div class="container_annonce">
+              <!--Formulaire d'annonce-->
+                <!--Selection Start-->
+                <form id="formular" method="post" action="/ai/verify/0" name="formular" enctype="multipart/form-data">
+                  <!-- Selection 1 -->
+                  <label for="selection_1">Catégorie :</label>
+                    <div class="container_select">
+                      <select class="form-control" id="selection">
+                        <option>Sélectionner dans la liste ...</option>
+                        <option>Test 1</option>
+                        <option>Test 2</option>
+                      </select>
+                    </div>
+                    <label for="selection_2">Lieu :</label>
+                      <div class="container_select">
+                        <select class="form-control" id="selection">
+                          <option>Sélectionner dans la liste ...</option>
+                          <option>Test 1</option>
+                          <option>Test 2</option>
+                        </select>
+                      </div>
+                  <button type="submit" class="btn btn-primary mb-2">Envoyer</button>
+                </form>
+            </div>
+          </div>
+        </body>
+  </html>

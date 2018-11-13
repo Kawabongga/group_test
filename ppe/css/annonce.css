@@ -1,0 +1,63 @@
+/*Css Page Offre*/
+
+body {
+  background: url(../img/nintendo.jpg) center;
+  background-repeat: -x;
+	margin: 0 auto;
+	font-family: 'Varela Round', sans-serif;
+  color: #222;
+}
+
+/*---CSS barre de navigation---*/
+.navbar {
+  position:fixed;
+  width: 100%;
+  box-shadow: 1px 1px 6px #000;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.nav-link {
+  color: #007DFF;
+}
+
+/*Fin CSS Barre de Navigation*/
+
+/*CSS Div Container_annonce*/
+
+h5 {
+  padding: 5px;
+}
+
+div.container_annonce {
+  width: auto;
+  margin: 100px 20px 0px 20px;
+  background-color: white;
+  border-style: solid;
+  box-shadow: 1px 1px 6px #000;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*Fin CSS Div container_annonce*/
+
+/*CSS selection*/
+
+.container_select {
+  padding: 5px;
+  text-align: center;
+}
+
+.selection_1 {
+  text-align: center;
+}
+
+.form-control {
+  display: inline-flex;
+  width: 50%;
+}
