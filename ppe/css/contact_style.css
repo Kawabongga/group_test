@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Varela+Round:400,500,700');
+
+/*---CSS de la page---*/
+html,body{
+
+  font-family: 'Varela Round', sans-serif;
+  color: #222;
+  background: url(../img/nintendo.jpg) center no-repeat;
+}
+
+/*--- CSS du formulaire de Contact ---*/
+
+/* Début Contact*/
+#contact-page .contact-form
+.form-group label {
+  color: #4E4E4E;
+  font-size: 20px;
+	position: relative;
+}
+
+.form-group .form-control {
+  position: relative;
+  padding: 7px 12px;
+  box-shadow: none;
+	width: auto;
+}
+
+textarea#message{
+  resize: none;
+  padding: 10px;
+  width: auto;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: blue;
+  position: relative;
+}
+
+/* Fin contact*/

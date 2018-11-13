@@ -1,0 +1,101 @@
+/*Css Page Offre*/
+
+body {
+  background: url(../img/nintendo.jpg) center;
+  background-repeat: -x;
+	margin: 0 auto;
+	font-family: 'Varela Round', sans-serif;
+  color: #222;
+}
+
+/*---CSS barre de navigation---*/
+.navbar {
+  position:fixed;
+  width: 100%;
+  box-shadow: 1px 1px 6px #000;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.nav-link {
+  color: #007DFF;
+}
+
+/* Offre */
+
+/* Style image */
+.myImg {
+  max-width: 100%;
+	border: thin solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* CSS des offres */
+
+h1 {
+  text-align: center;
+}
+
+/* CSS de la classe Offre*/
+
+div.container_offre {
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 100px;
+  background-color: white;
+  border-style: solid;
+  box-shadow: 1px 1px 6px #000;
+  border-radius: 5px;
+}
+
+/*Css des listes*/
+
+.list-group-item {
+  margin: 10px;
+  border-radius: 5px;
+  border-style: 2px solid;
+  box-shadow: 1px 1px 3px #000;
+}
+
+/*Fin CSS des offres */
+
+/*Pagination*/
+
+div.container_pagination {
+  position: relative;
+  width: 100%;
+}
+
+.center {
+  position: relative;
+  text-align: center;
+}
+
+.pagination {
+  position: relative;
+  display: inline-block;
+}
+
+.number {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.active {
+  padding: 10px;
+  margin: 10px;
+  background-color: red;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+/*Fin Pagination*/
